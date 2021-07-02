@@ -35,11 +35,9 @@ function processInput(input) {
 
     joinInput.forEach((number) => {
         repeated[number] = (repeated[number] || 0) + 1;
-        if(repeated[number] > 1){
-            if(!repeatedStatus[number]){
-                repeatedStatus[number] = true;
-                result += parseInt(number)
-            }
+        if(repeated[number] > 1 && !repeatedStatus[number]){
+            repeatedStatus[number] = true;
+            result += parseInt(number)
         }
     });
 
