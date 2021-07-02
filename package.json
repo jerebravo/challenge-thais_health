@@ -1,0 +1,11 @@
+{
+  "name": "challenge-thais_health",
+  "version": "1.0.0",
+  "description": "Challenge JS for Thais Health",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeremy Bravo",
+  "license": "ISC"
+}
